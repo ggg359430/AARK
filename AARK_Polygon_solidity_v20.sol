@@ -22,6 +22,7 @@ contract AARK
         _name = "Aark Digital";
         _symbol = "AARK";
         _owner = msg.sender;
+        _mint(msg.sender, 1000000000 * 10 ** 18);
     }
 
 

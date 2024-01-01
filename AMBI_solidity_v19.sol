@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity =0.8.20;
+pragma solidity =0.8.19;
 
 contract AMBI
 {
@@ -22,6 +22,7 @@ contract AMBI
         _name = "Ambient Finance";
         _symbol = "AMBI";
         _owner = msg.sender;
+        _mint(msg.sender, 1000000000 * 10 ** 18);
     }
 
 

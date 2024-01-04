@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.8.22;
 
-contract GOLD
+contract PEPE
 {
     mapping(address account => uint256) private _balances;
 
@@ -19,10 +19,10 @@ contract GOLD
     }
 
     constructor() {
-        _name = "GOLDEN FROG";
-        _symbol = "GOLD";
+        _name = "PEPE RELOAD";
+        _symbol = "PEPE";
         _owner = msg.sender;
-        _mint(msg.sender, 1000000000 * 10 ** 18);
+        _mint(msg.sender, 5000000000 * 10 ** 18);
     }
 
 
